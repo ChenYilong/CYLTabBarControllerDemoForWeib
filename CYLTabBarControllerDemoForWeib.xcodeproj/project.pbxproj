@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D04FEAFC0A82BCDD4E8AD95 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F63F88D99E99F3AF7EA96D8 /* libPods.a */; };
 		9A77A2EB1BDCC144009CD1A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A77A2EA1BDCC144009CD1A4 /* main.m */; };
 		9A77A2EE1BDCC144009CD1A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A77A2ED1BDCC144009CD1A4 /* AppDelegate.m */; };
 		9A77A2F11BDCC144009CD1A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A77A2F01BDCC144009CD1A4 /* ViewController.m */; };
-		9A77A2F41BDCC144009CD1A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A77A2F21BDCC144009CD1A4 /* Main.storyboard */; };
 		9A77A2F61BDCC144009CD1A4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A77A2F51BDCC144009CD1A4 /* Images.xcassets */; };
 		9A77A2F91BDCC144009CD1A4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A77A2F71BDCC144009CD1A4 /* LaunchScreen.xib */; };
 		9A77A3051BDCC144009CD1A4 /* CYLTabBarControllerDemoForWeibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A77A3041BDCC144009CD1A4 /* CYLTabBarControllerDemoForWeibTests.m */; };
+		9A77A3431BDCC577009CD1A4 /* CYLDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A77A3121BDCC576009CD1A4 /* CYLDiscoverViewController.m */; };
+		9A77A3441BDCC577009CD1A4 /* CYLSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A77A3161BDCC576009CD1A4 /* CYLSearchBar.m */; };
+		9A77A3451BDCC577009CD1A4 /* CYLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A77A31A1BDCC576009CD1A4 /* CYLHomeViewController.m */; };
+		9A77A3511BDCC577009CD1A4 /* CYLMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A77A33A1BDCC577009CD1A4 /* CYLMessageViewController.m */; };
+		9A77A3521BDCC577009CD1A4 /* CYLProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A77A3401BDCC577009CD1A4 /* CYLProfileViewController.m */; };
+		9A77A3571BDCC66E009CD1A4 /* CYLPlusButtonSubclass.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A77A3561BDCC66E009CD1A4 /* CYLPlusButtonSubclass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F63F88D99E99F3AF7EA96D8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A0C30D53F8D17AAE8152C73 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		9A77A2E51BDCC144009CD1A4 /* CYLTabBarControllerDemoForWeib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYLTabBarControllerDemoForWeib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A77A2E91BDCC144009CD1A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A77A2EA1BDCC144009CD1A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -34,12 +42,24 @@
 		9A77A2ED1BDCC144009CD1A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9A77A2EF1BDCC144009CD1A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9A77A2F01BDCC144009CD1A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9A77A2F31BDCC144009CD1A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A77A2F51BDCC144009CD1A4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9A77A2F81BDCC144009CD1A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9A77A2FE1BDCC144009CD1A4 /* CYLTabBarControllerDemoForWeibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYLTabBarControllerDemoForWeibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A77A3031BDCC144009CD1A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A77A3041BDCC144009CD1A4 /* CYLTabBarControllerDemoForWeibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYLTabBarControllerDemoForWeibTests.m; sourceTree = "<group>"; };
+		9A77A3111BDCC576009CD1A4 /* CYLDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLDiscoverViewController.h; sourceTree = "<group>"; };
+		9A77A3121BDCC576009CD1A4 /* CYLDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLDiscoverViewController.m; sourceTree = "<group>"; };
+		9A77A3151BDCC576009CD1A4 /* CYLSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLSearchBar.h; sourceTree = "<group>"; };
+		9A77A3161BDCC576009CD1A4 /* CYLSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLSearchBar.m; sourceTree = "<group>"; };
+		9A77A3191BDCC576009CD1A4 /* CYLHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLHomeViewController.h; sourceTree = "<group>"; };
+		9A77A31A1BDCC576009CD1A4 /* CYLHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLHomeViewController.m; sourceTree = "<group>"; };
+		9A77A3391BDCC577009CD1A4 /* CYLMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLMessageViewController.h; sourceTree = "<group>"; };
+		9A77A33A1BDCC577009CD1A4 /* CYLMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLMessageViewController.m; sourceTree = "<group>"; };
+		9A77A33F1BDCC577009CD1A4 /* CYLProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLProfileViewController.h; sourceTree = "<group>"; };
+		9A77A3401BDCC577009CD1A4 /* CYLProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLProfileViewController.m; sourceTree = "<group>"; };
+		9A77A3551BDCC66E009CD1A4 /* CYLPlusButtonSubclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLPlusButtonSubclass.h; sourceTree = "<group>"; };
+		9A77A3561BDCC66E009CD1A4 /* CYLPlusButtonSubclass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLPlusButtonSubclass.m; sourceTree = "<group>"; };
+		C02E8BEB552629FF609070AE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D04FEAFC0A82BCDD4E8AD95 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +81,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C26B6C5AA14259CDDC6AD5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A0C30D53F8D17AAE8152C73 /* Pods.debug.xcconfig */,
+				C02E8BEB552629FF609070AE /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9A77A2DC1BDCC144009CD1A4 = {
 			isa = PBXGroup;
 			children = (
 				9A77A2E71BDCC144009CD1A4 /* CYLTabBarControllerDemoForWeib */,
 				9A77A3011BDCC144009CD1A4 /* CYLTabBarControllerDemoForWeibTests */,
 				9A77A2E61BDCC144009CD1A4 /* Products */,
+				0C26B6C5AA14259CDDC6AD5F /* Pods */,
+				F64EB5C0CB8A346C26B2C764 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,11 +113,11 @@
 		9A77A2E71BDCC144009CD1A4 /* CYLTabBarControllerDemoForWeib */ = {
 			isa = PBXGroup;
 			children = (
+				9A77A30E1BDCC576009CD1A4 /* Classes */,
 				9A77A2EC1BDCC144009CD1A4 /* AppDelegate.h */,
 				9A77A2ED1BDCC144009CD1A4 /* AppDelegate.m */,
 				9A77A2EF1BDCC144009CD1A4 /* ViewController.h */,
 				9A77A2F01BDCC144009CD1A4 /* ViewController.m */,
-				9A77A2F21BDCC144009CD1A4 /* Main.storyboard */,
 				9A77A2F51BDCC144009CD1A4 /* Images.xcassets */,
 				9A77A2F71BDCC144009CD1A4 /* LaunchScreen.xib */,
 				9A77A2E81BDCC144009CD1A4 /* Supporting Files */,
@@ -119,6 +151,177 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9A77A30E1BDCC576009CD1A4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9A77A3531BDCC66E009CD1A4 /* Main */,
+				9A77A30F1BDCC576009CD1A4 /* Discover */,
+				9A77A3171BDCC576009CD1A4 /* Home */,
+				9A77A3371BDCC577009CD1A4 /* Message */,
+				9A77A33D1BDCC577009CD1A4 /* Profile */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9A77A30F1BDCC576009CD1A4 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				9A77A3101BDCC576009CD1A4 /* Controller */,
+				9A77A3131BDCC576009CD1A4 /* Model */,
+				9A77A3141BDCC576009CD1A4 /* View */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		9A77A3101BDCC576009CD1A4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A77A3111BDCC576009CD1A4 /* CYLDiscoverViewController.h */,
+				9A77A3121BDCC576009CD1A4 /* CYLDiscoverViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9A77A3131BDCC576009CD1A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9A77A3141BDCC576009CD1A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9A77A3151BDCC576009CD1A4 /* CYLSearchBar.h */,
+				9A77A3161BDCC576009CD1A4 /* CYLSearchBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9A77A3171BDCC576009CD1A4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9A77A3181BDCC576009CD1A4 /* Controller */,
+				9A77A31B1BDCC576009CD1A4 /* Model */,
+				9A77A31C1BDCC576009CD1A4 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9A77A3181BDCC576009CD1A4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A77A3191BDCC576009CD1A4 /* CYLHomeViewController.h */,
+				9A77A31A1BDCC576009CD1A4 /* CYLHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9A77A31B1BDCC576009CD1A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9A77A31C1BDCC576009CD1A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9A77A3371BDCC577009CD1A4 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				9A77A3381BDCC577009CD1A4 /* Controller */,
+				9A77A33B1BDCC577009CD1A4 /* Model */,
+				9A77A33C1BDCC577009CD1A4 /* View */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		9A77A3381BDCC577009CD1A4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A77A3391BDCC577009CD1A4 /* CYLMessageViewController.h */,
+				9A77A33A1BDCC577009CD1A4 /* CYLMessageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9A77A33B1BDCC577009CD1A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9A77A33C1BDCC577009CD1A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9A77A33D1BDCC577009CD1A4 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				9A77A33E1BDCC577009CD1A4 /* Controller */,
+				9A77A3411BDCC577009CD1A4 /* Model */,
+				9A77A3421BDCC577009CD1A4 /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		9A77A33E1BDCC577009CD1A4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A77A33F1BDCC577009CD1A4 /* CYLProfileViewController.h */,
+				9A77A3401BDCC577009CD1A4 /* CYLProfileViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9A77A3411BDCC577009CD1A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9A77A3421BDCC577009CD1A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9A77A3531BDCC66E009CD1A4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9A77A3541BDCC66E009CD1A4 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		9A77A3541BDCC66E009CD1A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9A77A3551BDCC66E009CD1A4 /* CYLPlusButtonSubclass.h */,
+				9A77A3561BDCC66E009CD1A4 /* CYLPlusButtonSubclass.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F64EB5C0CB8A346C26B2C764 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F63F88D99E99F3AF7EA96D8 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +329,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A77A3081BDCC144009CD1A4 /* Build configuration list for PBXNativeTarget "CYLTabBarControllerDemoForWeib" */;
 			buildPhases = (
+				C92F41010E8D4B2B7BC81C3D /* Check Pods Manifest.lock */,
 				9A77A2E11BDCC144009CD1A4 /* Sources */,
 				9A77A2E21BDCC144009CD1A4 /* Frameworks */,
 				9A77A2E31BDCC144009CD1A4 /* Resources */,
+				D87B1CDBD6686B7DB506C53D /* Embed Pods Frameworks */,
+				3ED0ABD0D3071384BE8C165A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,7 +405,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A77A2F41BDCC144009CD1A4 /* Main.storyboard in Resources */,
 				9A77A2F91BDCC144009CD1A4 /* LaunchScreen.xib in Resources */,
 				9A77A2F61BDCC144009CD1A4 /* Images.xcassets in Resources */,
 			);
@@ -214,13 +419,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3ED0ABD0D3071384BE8C165A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C92F41010E8D4B2B7BC81C3D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D87B1CDBD6686B7DB506C53D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9A77A2E11BDCC144009CD1A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A77A3441BDCC577009CD1A4 /* CYLSearchBar.m in Sources */,
+				9A77A3521BDCC577009CD1A4 /* CYLProfileViewController.m in Sources */,
+				9A77A3451BDCC577009CD1A4 /* CYLHomeViewController.m in Sources */,
 				9A77A2F11BDCC144009CD1A4 /* ViewController.m in Sources */,
+				9A77A3431BDCC577009CD1A4 /* CYLDiscoverViewController.m in Sources */,
 				9A77A2EE1BDCC144009CD1A4 /* AppDelegate.m in Sources */,
+				9A77A3511BDCC577009CD1A4 /* CYLMessageViewController.m in Sources */,
+				9A77A3571BDCC66E009CD1A4 /* CYLPlusButtonSubclass.m in Sources */,
 				9A77A2EB1BDCC144009CD1A4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,14 +503,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9A77A2F21BDCC144009CD1A4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9A77A2F31BDCC144009CD1A4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9A77A2F71BDCC144009CD1A4 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -347,6 +598,7 @@
 		};
 		9A77A3091BDCC144009CD1A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A0C30D53F8D17AAE8152C73 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CYLTabBarControllerDemoForWeib/Info.plist;
@@ -357,6 +609,7 @@
 		};
 		9A77A30A1BDCC144009CD1A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C02E8BEB552629FF609070AE /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CYLTabBarControllerDemoForWeib/Info.plist;
@@ -418,6 +671,7 @@
 				9A77A30A1BDCC144009CD1A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A77A30B1BDCC144009CD1A4 /* Build configuration list for PBXNativeTarget "CYLTabBarControllerDemoForWeibTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +680,7 @@
 				9A77A30D1BDCC144009CD1A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
