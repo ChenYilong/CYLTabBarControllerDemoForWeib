@@ -7,6 +7,7 @@
 //
 
 #import "CYLMessageViewController.h"
+#import "CYLDetailsViewController.h"
 
 @interface CYLMessageViewController ()
 
@@ -18,42 +19,54 @@
 {
     self = [super initWithStyle:style];
     if (self) {
-        // Custom initialization
+        self.title = @"消息中心";
     }
     return self;
 }
+#pragma mark - View lifecycle
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
+}
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
+        return YES;
+    }
+    return toInterfaceOrientation == UIInterfaceOrientationPortrait;
+}
+
+#pragma mark - Methods
+
+- (void)configureCell:(UITableViewCell *)cell forIndexPath:(NSIndexPath *)indexPath {
+    [[cell textLabel] setText:[NSString stringWithFormat:@"%@ Controller Cell %ld", self.title, (long)indexPath.row]];
+}
+
+#pragma mark - Table view
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    static NSString *CellIdentifier = @"Cell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    if (!cell) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+    }
     
-    // 给导航条右边添加一个按钮
-    UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithTitle:@"发私信" style:UIBarButtonItemStylePlain target:nil action:nil];
+    [self configureCell:cell forIndexPath:indexPath];
     
-    self.navigationItem.rightBarButtonItem = item;
+    return cell;
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 15;
 }
 
-#pragma mark - Table view data source
-
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
-{
-//#warning Potentially incomplete method implementation.
-    // Return the number of sections.
-    return 0;
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    UIViewController *viewController = [[CYLDetailsViewController alloc] init];
+    viewController.hidesBottomBarWhenPushed = YES;  // This property needs to be set before pushing viewController to the navigationController's stack.
+    
+    [self.navigationController pushViewController:viewController animated:YES];
 }
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
-{
-//#warning Incomplete method implementation.
-    // Return the number of rows in the section.
-    return 0;
-}
-
 
 @end

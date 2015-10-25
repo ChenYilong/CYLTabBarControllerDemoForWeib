@@ -75,7 +75,7 @@
                                                             delegate:nil
                                                    cancelButtonTitle:@"取消"
                                               destructiveButtonTitle:nil
-                                                   otherButtonTitles:@"拍照", @"从相册选取", @"淘宝一键转卖", nil];
+                                                   otherButtonTitles:@"发微薄", @"发照片", @"发视频", nil];
     [actionSheet showInView:viewController.view];
 }
 
@@ -92,11 +92,5 @@
 //+ (CGFloat)multiplerInCenterY {
 //    return  0.5;
 //}
-
-+ (CGSize)sizeOfPlusButton {
-    UIImage *buttonImage = [UIImage imageNamed:@"tabbar_compose_button"];
-    CGSize size = CGSizeMake(buttonImage.size.width, buttonImage.size.height);
-    return size;
-}
 
 @end

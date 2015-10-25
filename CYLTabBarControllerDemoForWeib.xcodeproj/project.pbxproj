@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4D04FEAFC0A82BCDD4E8AD95 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F63F88D99E99F3AF7EA96D8 /* libPods.a */; };
+		9A595CD21BDCDAA300DDC5F2 /* CYLDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A595CD11BDCDAA300DDC5F2 /* CYLDetailsViewController.m */; };
 		9A77A2EB1BDCC144009CD1A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A77A2EA1BDCC144009CD1A4 /* main.m */; };
 		9A77A2EE1BDCC144009CD1A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A77A2ED1BDCC144009CD1A4 /* AppDelegate.m */; };
 		9A77A2F11BDCC144009CD1A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A77A2F01BDCC144009CD1A4 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* Begin PBXFileReference section */
 		1F63F88D99E99F3AF7EA96D8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A0C30D53F8D17AAE8152C73 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		9A595CD01BDCDAA300DDC5F2 /* CYLDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLDetailsViewController.h; sourceTree = "<group>"; };
+		9A595CD11BDCDAA300DDC5F2 /* CYLDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLDetailsViewController.m; sourceTree = "<group>"; };
 		9A77A2E51BDCC144009CD1A4 /* CYLTabBarControllerDemoForWeib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYLTabBarControllerDemoForWeib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A77A2E91BDCC144009CD1A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A77A2EA1BDCC144009CD1A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -246,6 +249,8 @@
 			children = (
 				9A77A3391BDCC577009CD1A4 /* CYLMessageViewController.h */,
 				9A77A33A1BDCC577009CD1A4 /* CYLMessageViewController.m */,
+				9A595CD01BDCDAA300DDC5F2 /* CYLDetailsViewController.h */,
+				9A595CD11BDCDAA300DDC5F2 /* CYLDetailsViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -476,6 +481,7 @@
 				9A77A3521BDCC577009CD1A4 /* CYLProfileViewController.m in Sources */,
 				9A77A3451BDCC577009CD1A4 /* CYLHomeViewController.m in Sources */,
 				9A77A2F11BDCC144009CD1A4 /* ViewController.m in Sources */,
+				9A595CD21BDCDAA300DDC5F2 /* CYLDetailsViewController.m in Sources */,
 				9A77A3431BDCC577009CD1A4 /* CYLDiscoverViewController.m in Sources */,
 				9A77A2EE1BDCC144009CD1A4 /* AppDelegate.m in Sources */,
 				9A77A3511BDCC577009CD1A4 /* CYLMessageViewController.m in Sources */,

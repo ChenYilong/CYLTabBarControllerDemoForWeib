@@ -74,7 +74,7 @@
     NSDictionary *dict1 = @{
                             CYLTabBarItemTitle : @"首页",
                             CYLTabBarItemImage : @"tabbar_home_os7",
-                            CYLTabBarItemSelectedImage : @"tabbar_discover_selected_os7",
+                            CYLTabBarItemSelectedImage : @"tabbar_home_selected_os7",
                             };
     NSDictionary *dict2 = @{
                             CYLTabBarItemTitle : @"消息",
