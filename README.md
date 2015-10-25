@@ -1,9 +1,17 @@
-# CYLTabBarController（学习交流群：498865024）
-低耦合的TabBarController
+# 使用CYLTabBarController实现微博框架（学习交流群：498865024）
 
 
+
+ [本Demo](https://github.com/ChenYilong/CYLTabBarControllerDemoForWeib) 使用
+[CYLTabBarController](https://github.com/ChenYilong/CYLTabBarController)
+实现了微博Tabbar框架，效果如下
+![enter image description here](http://i62.tinypic.com/6ru269.jpg)
+
+[CYLTabBarController](https://github.com/ChenYilong/CYLTabBarController)
+能实现低耦合的实现 TabBarController。
+
+使用[CYLTabBarController](https://github.com/ChenYilong/CYLTabBarController)
 四步完成主流App框架搭建：
-
 
 
 ## 第一步：使用cocoaPods导入CYLTabBarController
