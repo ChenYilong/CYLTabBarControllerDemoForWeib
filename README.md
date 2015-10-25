@@ -1,6 +1,10 @@
 # 使用CYLTabBarController实现微博框架（学习交流群：498865024）
 
+<p align="center">
+![enter image description here](https://img.shields.io/badge/pod-v1.0.1-brightgreen.svg)
+![enter image description here](https://img.shields.io/badge/Objective--C-compatible-orange.svg)     <a href="http://weibo.com/luohanchenyilong/"><img src="https://img.shields.io/badge/作者-微博%40iOS程序犭袁-blue.svg?style=flat" alt="微博@iOS程序犭袁" />
 
+</a>
 
  [本Demo](https://github.com/ChenYilong/CYLTabBarControllerDemoForWeib) 使用
 [CYLTabBarController](https://github.com/ChenYilong/CYLTabBarController)
