@@ -15,6 +15,8 @@
 #import "CYLDiscoverViewController.h"
 #import "CYLProfileViewController.h"
 
+#import "CYLPlusButtonSubclass.h"
+
 @interface AppDelegate ()
 
 @property (strong, nonatomic) CYLTabBarController *tabBarController;
@@ -24,7 +26,7 @@
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
+    [CYLPlusButtonSubclass registerPlusButton];
     // 设置主窗口,并设置跟控制器
     self.window = [[UIWindow alloc]init];
     self.window.frame = [UIScreen mainScreen].bounds;
@@ -128,9 +130,9 @@
 #endif
     }
     
-//    [navigationBarAppearance setBackgroundImage:backgroundImage
-//                                  forBarMetrics:UIBarMetricsDefault];
-//    [navigationBarAppearance setTitleTextAttributes:textAttributes];
+    //    [navigationBarAppearance setBackgroundImage:backgroundImage
+    //                                  forBarMetrics:UIBarMetricsDefault];
+    //    [navigationBarAppearance setTitleTextAttributes:textAttributes];
 }
 
 /**
@@ -150,7 +152,8 @@
     UITabBarItem *tabBar = [UITabBarItem appearance];
     [tabBar setTitleTextAttributes:normalAttrs forState:UIControlStateNormal];
     [tabBar setTitleTextAttributes:normalAttrs forState:UIControlStateHighlighted];
-        UITabBar *tabBarAppearance = [UITabBar appearance];
-        [tabBarAppearance setBackgroundImage:[UIImage imageNamed:@"tabbar_background_os7"]];
+//    UITabBar *tabBarAppearance = [UITabBar appearance];
+//    [tabBarAppearance setBackgroundImage:[UIImage imageNamed:@"tabbar_background_os7"]];
 }
+
 @end

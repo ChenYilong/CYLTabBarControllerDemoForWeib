@@ -7,18 +7,12 @@
 //
 
 #import "CYLPlusButtonSubclass.h"
+
 @interface CYLPlusButtonSubclass () {
     CGFloat _buttonImageHeight;
 }
 @end
 @implementation CYLPlusButtonSubclass
-
-#pragma mark -
-#pragma mark - Life Cycle
-
-+(void)load {
-    [super registerSubclass];
-}
 
 #pragma mark -
 #pragma mark - Life Cycle

@@ -1,2 +1,4 @@
 platform :ios, '7.0'
-pod ‘CYLTabBarController’
+target 'CYLTabBarControllerDemoForWeib' do
+pod 'CYLTabBarController'
+end
